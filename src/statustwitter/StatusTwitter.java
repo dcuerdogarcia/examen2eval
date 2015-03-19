@@ -33,7 +33,7 @@ public class StatusTwitter {
         twitter = new TwitterFactory(cb.build()).getInstance();
 
         Paging pagina = new Paging();
-
+//no hay manera
 //Twitter mitwitter = new TwitterFactory().getInstance();
         Query query = new Query("#Cangas");
         QueryResult result = twitter.search(query);
