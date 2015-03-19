@@ -21,6 +21,7 @@ public class StatusTwitter {
      * @throws twitter4j.TwitterException Rama con sus respectivos cambios.
      */
     public static void main(String[] args) throws TwitterException {
+//No he sido capaz en este intento, ahora volveré a hacerlo a ver si va de esta :D
 
         Twitter twitter;
         ConfigurationBuilder cb = new ConfigurationBuilder();
